@@ -1,0 +1,19 @@
+Gland, {datetime|P|N}
+(?:Börsengeschäft:|Börsentransaktion:) {transType|P|N} Unsere Referenz: 12345678 
+Gemäss Ihrem Kaufauftrag vom 28.01.2013 haben wir folgende Transaktionen vorgenommen:
+Titel Ort der Ausführung
+ISHARES $ CORP BND ISIN: {isin|P} SIX Swiss Exchange
+NKN: 1613957
+Anzahl Preis Betrag
+{units|PL|R} {quotation} {cac} 8’000.00
+Total USD 8’250.00
+Kommission Swissquote Bank AG USD {tc1|SL|N|O}
+[Abgabe (Eidg. Stempelsteuer)|Eidgenössische Stempelsteuer] USD {tt1|SL|N}
+Börsengebühren USD {tc2|SL|N}
+Zu Ihren Lasten USD {ta|SL|N}
+[END]
+templatePurpose=Kauf und Verkauf Wertpapier (Wiederholung units)
+transType=ACCUMULATE|Kauf
+transType=REDUCE|Verkauf
+dateFormat=dd.MM.yyyy
+overRuleSeparators=All<’'|.>

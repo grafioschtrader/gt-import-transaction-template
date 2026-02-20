@@ -1,0 +1,19 @@
+Gland, {datetime|P|N}
+Stock-Exchange Transaction: {transType|P|N} Our reference: 12345678 
+In accordance with your sell order of 10.02.2017 we have carried out the following transactions:
+Security Place of execution
+DB X-TR MSCI EM ISIN: {isin|P} SIX Swiss Exchange
+NKN: 3067289
+Quantity Price Amount
+{units|PL|R} {quotation} {cac} 1'000.00
+Total USD 1'000.00
+Commission Swissquote Bank Ltd USD {tc1|SL|N}
+Tax (Federal stamp duty) USD {tt1|SL|N}
+Stock exchange fee USD {tc2|SL|N}
+To your credit USD {ta|SL|N}
+[END]
+templatePurpose=Sell (Wiederholung units)
+transType=ACCUMULATE|Buy
+transType=REDUCE|Sell
+dateFormat=dd.MM.yyyy
+overRuleSeparators=All<’'|.>
