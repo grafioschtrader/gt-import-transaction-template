@@ -1,0 +1,24 @@
+Börsengeschäft                    REF : BO/12345678
+Ihr {transType|P|N} vom {datetime|P|N}                                                      
+Abschlussort : SIX Swiss Exchange
+BEZEICHNUNG                                      VALOREN NR          
+ISIN      
+DB X-TR MSEM                                     3'614'480
+{isin|P|NL}
+ANZAHL                KURS                       BETRAG
+-{units|Pc|Nc|PL|R}-  {cac} {quotation}                  CHF          1.00
+Ausländische Taxen USD {tt2|SL|N|O}
+Courtage SQB               CHF               {tc1|SL|N|O}
+Eidg. Stempel              CHF               {tt1|SL|N}
+Börsengebühren             CHF               {tc2|SL|N|O}
+----------------------
+ZU IHREN GUNSTEN CHF          {ta|SL|N}
+======================
+Valuta      11.11.2010
+[END]
+templatePurpose=Kauf und Verkauf Wertpapier  (Wiederholung units)
+transType=ACCUMULATE|Kauf
+transType=REDUCE|Verkauf
+dateFormat=dd.MM.yyyy
+overRuleSeparators=All<’'|.>
+

@@ -1,0 +1,31 @@
+TRANSACTION NOTIFICATION
+Client: 869617 - TRADING
+Mr. James Bond
+Bondstreet 24
+GB-8888 London
+Bern, 25.02.2021
+Redemption
+Our reference: 123456789
+We have performed the following transaction on your account:
+Security
+Original Original quantity
+ISIN: CH0269698772
+HIRSLAND 1.625% 25.02.2021 10'000
+NKN: 26969877
+Custodian: Swissquote Bank Ltd
+Movement Ratio Quantity
+HIRSLAND 1.625% 25.02.2021 ISIN: CH0269698772
+- -10'000
+NKN: 26969877
+Custodian: Swissquote Bank Ltd
+We have credited the following amount to your account:
+Account number 12345678
+Execution date 25.02.2021
+Value date 25.02.2021
+Quantity 10'000
+Price 100 %
+Amount CHF 10'000.00
+Total CHF 10'000.00
+Please check this document and let us know within one month if there are any discrepancies.
+PostFinance Ltd, Mingerstrasse 20, 3030 Berne Contact Center e-trading: 0848 800 000 (Mon-Fri: 8 a.m. - 6 p.m., CHF 0.08/min. from a landline) Advice without signature S.E. & O.
+VAT n° CHE-116.302.542
